@@ -8,5 +8,7 @@ func main() {
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{"message": "This is Steven Portfolio."})
 	})
+
 	router.Run()
+	
 }
